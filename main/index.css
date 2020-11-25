@@ -1,0 +1,46 @@
+.content {
+  display: flex;
+}
+button {
+  width: 30px;
+  height: 30px;
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid blue;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 99999;
+  margin-top: 10px;
+}
+
+.d-flex {
+  width: 60%;
+
+  transform: translateX(-70%);
+  opacity: 0;
+  border-radius: 10px;
+  background-color: rgb(56, 216, 228);
+  transition: 0.3s linear;
+}
+.d-flex-active {
+  transform: translateX(5%);
+  opacity: 1;
+}
+.animate {
+  transform: translateX(30px);
+  transition: transform 1s linear;
+  display: flex;
+}
+.togle {
+  /* transform: translateX(30px); */
+  transition: all 1s linear;
+}
+.display-flex {
+  display: flex;
+}
+.d-flex p {
+  margin-right: 10px;
+  color: white;
+}
